@@ -7,9 +7,9 @@ const Footer = () => {
         class="text-center p-3"
         style={{backgroundColor:"gray"}}
       >
-        © 2020 Copyright:
-        <a class="text-body" href="https://mdbootstrap.com/">
-          MDBootstrap.com
+        © 2024 Copyright:
+        <a class="text-body" href="#">
+         မြန်မာ ဆယ့်နှစ်လများ 
         </a>
       </div>
     </footer>

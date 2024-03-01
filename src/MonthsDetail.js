@@ -9,11 +9,11 @@ const MonthsDetail = () => {
     data: month,
     error,
     isPending,
-  } = useFetch("http://localhost:8000/Tbl_Months/" + id);
+  } = useFetch("https://month-server-json.vercel.app/Tbl_Months/" + id);
   const navigate = useNavigate();
 
   const handleClick = () => {
-    fetch("http://localhost:8000/Tbl_Months/" + id, {
+    fetch("https://month-server-json.vercel.app/Tbl_Months/" + id, {
       method: "DELETE",
     }).then(() => {
       navigate("/MonthsList");
@@ -24,7 +24,11 @@ const MonthsDetail = () => {
     <div className="container">
       <div className="row">
         <div className="col-lg-12 mt-3">
-          {isPending && <div>loading...</div>}
+          {isPending && 
+            <div style={{height:"70vh"}} className="d-flex justify-content-center align-items-center mt-5">
+            <ReactLoading type="cubes" color="black" height={100} width={100} />
+           </div>
+          }
           {error && <div>{error}</div>}
           {month && (
             <>
