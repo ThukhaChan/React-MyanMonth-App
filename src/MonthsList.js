@@ -25,8 +25,8 @@ const MonthsList = ({ months }) => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-lg-12 p-5">
-          <h1 className="text-left">
+        <div className="col-lg-12 py-5">
+          <h1 className="text-center">
             <span className="bg-black text-white p-3 rounded-5">
               မြန်မာလအသေးစိတ်များ
             </span>
