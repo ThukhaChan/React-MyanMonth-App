@@ -1,20 +1,6 @@
-// import { Card } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "./MonthsList.css";
 import { Link } from "react-router-dom";
-// const monthImage = [
-//   require("./img/1.jpg"),
-//   require("./img/2.jpg"),
-//   require("./img/3.jpg"),
-//   require("./img/4.jpg"),
-//   require("./img/5.jpg"),
-//   require("./img/6.jpg"),
-//   require("./img/7.jpg"),
-//   require("./img/9.jpg"),
-//   require("./img/10.jpg"),
-//   require("./img/11.jpg"),
-//   require("./img/12.jpg"),
-// ];
 
 const responsive = {
   superLargeDesktop: {
@@ -69,7 +55,7 @@ const MonthsList = ({ months }) => {
                         }}
                       >
                         <img
-                          src={require(`./img/${month.Id}.jpg`)}
+                          src={require(`./img/${month.id}.jpg`)}
                           alt={month.MonthEn}
                           className=""
                           style={{

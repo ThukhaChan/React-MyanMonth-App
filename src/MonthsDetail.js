@@ -1,7 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
-// import CircleLoader from "./CircleLoader";
-import XlviLoader from "./XlviLoader";
+import ReactLoading from 'react-loading';
 
 const MonthsDetail = () => {
   const { id } = useParams();
