@@ -28,7 +28,7 @@ const MonthsList = ({ months }) => {
         <div className="col-lg-12 p-5">
           <h1 className="text-left">
             <span className="bg-black text-white p-3 rounded-5">
-              မြန်မာလအသေးစိပ်များ
+              မြန်မာလအသေးစိတ်များ
             </span>
           </h1>
         </div>

@@ -52,7 +52,7 @@ const MonthsDetail = () => {
                     src={require(`../public/mooo/${month.ImagePath}`)}
                     alt={month.MonthEn}
                     className=" mb-2"
-                    style={{ objectFit: "cover" }}
+                    style={{ objectFit: "cover", width:"100%" }}
                   />
                   <p>
                     {month.Description}
